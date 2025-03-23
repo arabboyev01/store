@@ -30,8 +30,8 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/product-catalog.git
-   cd product-catalog
+   git clone https://github.com/arabboyev01/store.git
+   cd store
    ```
 
 2. Install dependencies:
