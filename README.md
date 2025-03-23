@@ -66,7 +66,7 @@ src/
 ├── pages/               # Page components
 │   ├── CatalogPage.jsx  # Main product catalog
 │   └── CartPage.jsx     # Shopping cart page
-└── utils/               # Utility functions
+└── api/               # Utility functions
     └── api.js           # API related functions
 ```
 
