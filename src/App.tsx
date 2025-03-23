@@ -5,6 +5,7 @@ import { CartProvider } from "./contexts/CartContext"
 import CatalogPage from "./pages/CatalogPage"
 import CartPage from "./pages/CartPage"
 import ProductDetails from "./components/SingleProduct/SingleProduct"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
               <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500"></div>
             </div>
           }>
+            <SpeedInsights />
             <Routes>
               <Route path="/" element={<CatalogPage />} />
               <Route path="/cart" element={<CartPage />} />
